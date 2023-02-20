@@ -1,23 +1,26 @@
 .header {
-    margin: 0 auto;
-    max-width: 2000px;
-    background-image: url(/src/header/header_bg.png);
+    /* margin: 0 auto; */
+    /* max-width: 2000px; */
+    /* background-image: url(/src/header/header_bg.png);
     background-repeat: no-repeat;
     background-size: 899px 754px;
-    background-position: right center;
+    background-position: right center; */
 }
+
 .header-row {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 24px 0 72px;
 }
+
 .logo {
     background-image: url(/src/header/skydrone_icon.svg);
     background-size: 21px 21px;
     background-position: center left;
     background-repeat: no-repeat;
 }
+
 .logo a {
     padding-left: 25px;
     font-size: 30px;
@@ -25,6 +28,7 @@
     font-weight: 700;
     line-height: 1.5;
 }
+
 .header-logo__logo {
     padding-left: 4px;
     font-size: 30px;
@@ -32,41 +36,48 @@
     font-weight: 700;
     line-height: 1.5;
 }
+
 .nav-list {
     display: flex;
     align-items: center;
     column-gap: 32px;
 }
+
 .nav-list li a {
     line-height: 1.5;
     color: var(--primary-color);
     transition: color .3s ease;
 }
+
 .nav-list li a:hover {
     color: var(--secondary-color);
 }
+
 .header-main {
     padding: 72px 0 241px;
 }
+
 .header-main__content {
     max-width: 560px;
 }
+
 .header-main__content h1 {
     margin-bottom: 24px;
 }
+
 .header-main__content p {
     margin-bottom: 24px;
     font-size: 20px;
     line-height: 1.5;
     color: #612b00;
 }
+
 .nav-button {
     background-color: unset;
     display: none;
 }
+
 .open_btn__img {
     width: 20px;
     height: 20px;
 }
-
-

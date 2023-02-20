@@ -1,9 +1,7 @@
-let openBtn = document.querySelector('#open-btn');
-let btnImg = document.querySelector('.open_btn__img')
-let headerRow = document.querySelector('#header-row')
+const openBtn = document.querySelector('#open-btn');
+const btnImg = document.querySelector('.open_btn__img');
+const headerRow = document.querySelector('#header-row');
 
-openBtn.addEventListener("click", () => {
-    
 openBtn.addEventListener('click', () => {
     if (headerRow.closest('.open')) {
         btnImg.src = "src/header/open_btn.svg";
@@ -15,7 +13,7 @@ openBtn.addEventListener('click', () => {
     }
 })
 
-headerRow.addEventListener("click", (e) => {
+headerRow.addEventListener('click', (e) => {
     if (e.target.tagName == "A") {
         document.querySelector('.header-row').classList.remove('open');
         btnImg.src = "src/header/open_btn.svg";
