@@ -1,9 +1,7 @@
 @media (max-width: 1024px) {
+
     .header {
-        background-image: url(/src/header/header_bg-full.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
+        background: url(/src/header/header_bg-full.jpg) center / cover no-repeat;
     }
 
     .header-main {
@@ -20,12 +18,13 @@
     
 }
 @media (max-width: 768px) {
+
     .logo {
+        padding-left: 17px;
         background-size: 14px 14px;
     }
 
     .logo a {
-        padding-left: 20px;
         font-size: 19px;
     }
     
@@ -37,6 +36,7 @@
     
 }
 @media (max-width: 568px) {
+    
     .header-row {
         padding: 20px 0 30px;
     }
@@ -85,7 +85,7 @@
         right: 10px;
     } 
 
-    .header-main__content h1 {
+    .header-main__title {
         font-size: 28px;
     }
 
@@ -95,6 +95,7 @@
 
 }
 @media (max-width: 320px) {
+
     .header {
         background-image: url(/src/header/mobile_bg.jpg);
     }
@@ -103,4 +104,4 @@
         background-color: unset;
     }
 
-} 
+}
