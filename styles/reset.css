@@ -13,10 +13,7 @@
 }
 
 :focus,
-:active {
-    outline: none;
-}
-
+:active,
 a:focus,
 a:active {
     outline: none;
@@ -61,11 +58,8 @@ button::-moz-focus-inner {
 }
 
 a,
-a:visited {
-    text-decoration: none;
-}
-
-a:hover {
+a:visited,
+a:hover  {
     text-decoration: none;
 }
 
