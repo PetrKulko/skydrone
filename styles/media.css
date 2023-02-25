@@ -10,11 +10,10 @@
     .header-main__content {
         margin: 0 auto;
         padding: 20px;
-        background-color: #ffffff59;
+        background-color: #fff;
         border-radius: 20px;
         text-align: center;
     }
-    
 }
 @media (max-width: 768px) {
     .nav-list{
@@ -22,7 +21,6 @@
         column-gap: 15px;
         flex-wrap: wrap;
     }
-    
 }
 @media (max-width: 568px) {
     .header-row {
@@ -76,7 +74,6 @@
     .header-main__content p {
         font-size: 16px;
     }
-
 }
 @media (max-width: 320px) {
     .header {
@@ -86,5 +83,4 @@
     .header-main__content {
         background-color: unset;
     }
-
 }
