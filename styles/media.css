@@ -1,20 +1,12 @@
 @media (max-width: 1024px) {
-    .header {
-        background: url(/src/header/header_bg-full.jpg) center / cover no-repeat;
-    }
-
-    .header-main {
-        padding: 52px 0 221px;
-    }
-
     .header-main__content {
         margin: 0 auto;
         padding: 20px;
-        background-color: #fff;
         border-radius: 20px;
         text-align: center;
     }
 }
+
 @media (max-width: 768px) {
     .nav-list{
         font-size: 14px;
@@ -22,11 +14,8 @@
         flex-wrap: wrap;
     }
 }
-@media (max-width: 568px) {
-    .header-row {
-        padding: 20px 0 30px;
-    }
 
+@media (max-width: 568px) {
     .nav-list {
         display: none;
     }
@@ -73,14 +62,5 @@
 
     .header-main__content p {
         font-size: 16px;
-    }
-}
-@media (max-width: 320px) {
-    .header {
-        background-image: url(/src/header/mobile_bg.jpg);
-    }
-    
-    .header-main__content {
-        background-color: unset;
     }
 }

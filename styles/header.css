@@ -1,8 +1,14 @@
+.header {
+    padding-top: 24px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+
 .header-row {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 24px 0 72px;
 }
 
 .nav-list {
@@ -22,7 +28,8 @@
 }
 
 .header-main {
-    padding: 72px 0 241px;
+    padding: 290px 0 133px;
+    background: url('../src/header/header_bg-full.jpg') center / cover no-repeat;
 }
 
 .header-main__content {
