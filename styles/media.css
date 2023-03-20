@@ -8,10 +8,31 @@
 }
 
 @media (max-width: 768px) {
-    .nav-list{
+    .nav-list {
         font-size: 14px;
         column-gap: 15px;
         flex-wrap: wrap;
+    }
+
+    .footer-main {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        row-gap: 24px;
+    }
+
+    .footer-list {
+        flex-direction: column;
+        row-gap: 24px;
+    }
+
+    .footer-info {
+        text-align: center;
     }
 }
 
