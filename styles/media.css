@@ -34,6 +34,23 @@
     .footer-info {
         text-align: center;
     }
+
+    .partners {
+        margin: 64px 0;
+    }
+
+    .partners h2 {
+        margin-bottom: 48px;
+        font-size: 20px;
+    }
+
+    .partners-row {
+        row-gap: 64px;
+    }
+
+    .services {
+        display: none;
+    }
 }
 
 @media (max-width: 568px) {
@@ -82,6 +99,10 @@
     }
 
     .header-main__content p {
+        font-size: 16px;
+    }
+
+    .partners h2 {
         font-size: 16px;
     }
 }
