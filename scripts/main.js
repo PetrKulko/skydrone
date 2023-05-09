@@ -1,3 +1,5 @@
+AOS.init();
+
 const openBtn = document.querySelector('#open-btn');
 const btnImg = document.querySelector('.open_btn__img');
 const headerRow = document.querySelector('#header-row');
