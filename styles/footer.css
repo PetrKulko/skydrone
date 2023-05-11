@@ -32,12 +32,14 @@
     column-gap: 29px;
 }
 
-.footer-social img {
-    transition: opacity .3s ease;
+.social-icon {
+    font-size: 35px;
+    color: #fff;
+    transition: color .3s ease;
 }
 
-.footer-social img:hover {
-    opacity: .7;
+.social-icon:hover {
+    color: var(--secondary-color);
 }
 
 .footer-links {
