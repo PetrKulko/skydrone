@@ -5,13 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SKYDRONE</title>
-    <link rel="stylesheet" href="./styles/reset.css">
-    <link rel="stylesheet" href="./styles/style.css">
-    <link rel="stylesheet" href="./styles/header.css">
-    <link rel="stylesheet" href="./styles/partners.css">
-    <link rel="stylesheet" href="./styles/services.css">
-    <link rel="stylesheet" href="./styles/media.css">
-    <link rel="stylesheet" href="./styles/footer.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="shortcut icon" href="src/favicon.ico">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/partners.css">
+    <link rel="stylesheet" href="styles/services.css">
+    <link rel="stylesheet" href="styles/media.css">
+    <link rel="stylesheet" href="styles/footer.css">
 </head>
 <body>
     <header class="header">
@@ -42,7 +44,7 @@
     </header>
     <div class="header-main">
         <div class="container">
-            <div class="header-main__content">
+            <div class="header-main__content" data-aos="fade-up" data-aos-duration="1500">
                 <h1 class="header-main__title title">Saving the world and growing crops</h1>
                 <p>Skydrone's innovative drone technology is bringing the latest farming innovations to farms around the world.</p>
                 <button class="header-main__content-btn button">Contact Us</button>
@@ -51,8 +53,8 @@
     </div>
     <section class="partners">
         <div class="container">
-            <h2>Used by the world's most innovative companies</h2>
-            <ul class="partners-row">
+            <h2 data-aos="zoom-in">Used by the world's most innovative companies</h2>
+            <ul class="partners-row" data-aos="fade-up">
                 <li>
                     <a href="#">
                         <img src="src/partners/partner_1.svg" alt="partner brand">
@@ -139,7 +141,8 @@
             </div>
         </div>
     </footer>
-    
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="scripts/main.js"></script>
 </body>
 </html>
